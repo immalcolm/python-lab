@@ -3,15 +3,13 @@ The local librarian, Mr. Sleepy would like to keep track of overdue books in the
 needs a Python program to help him manage overdue book returns.
 
 ## Task
-The program should read the overdue book data from a file named ‘overdue_books.txt’.
-
-Each line contains a book title and the number of days overdue separated by a ‘;’.
-
+The program should read the overdue book data from a file named `overdue_books.txt`.
+Each line contains a book title and the number of days overdue separated by a `;`
 
 Calculate the fine for each book based on one of these rules:
 • From 1-5 days overdue, $0.50 per day
 • From 6-10 days overdue, $1.00 per day
-• More than 10 days overdue, $1.50 per day + a stern librarian glare denoted by “-
+• More than 10 days overdue, $1.50 per day + a stern librarian glare denoted by `"-.-"`
 
 Use a list to store the book title, overdue days and fine amount.
 
@@ -21,10 +19,9 @@ Allow the librarian to add more overdue books manually using a while loop.
 The loop should stop when he types “stop” instead of a book title.
 
 When the program is stopped, write the results (book title, days overdue and fine) to a new
-file name ‘fines_report.txt’.
+file name `fines_report.txt`
 
-The program then displays a summary of total books processed and the overall total fine
-amount.
+The program then displays a summary of total books processed and the overall total fine amount.
 
 ## Breakdown 
 __Test as much each step, convert to appropriate data types__
